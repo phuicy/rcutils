@@ -11,6 +11,8 @@ if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
 endif()
 
+set(BUILD_TESTING FALSE)
+
 include(CheckLibraryExists)
 
 find_package(ament_cmake_python REQUIRED)
